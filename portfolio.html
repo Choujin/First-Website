@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style4.css" img="img/img.jpg"/>
+    <script src="./js/nav.js"></script>
+</head>
+<body>
+    
+
+
+<!--
+        <nav class="navbar navbar-light bg-light justify-content-between">
+            <a class="navbar-brand">Navbar</a>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Username" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+            </form>
+        </nav>
+    -->
+    <!--HamBurger Icon-->
+    <div class="bars" id="nav-action">
+        <span class="bar"> </span>
+    </div>
+
+    <!--Navbar Links-->
+    <nav id="nav">
+        <ul>
+            <li class="shape-circle circle-one"><a href="portfolio.html">Portfolio</a></li>
+            <li class="shape-circle circle-two"><a href="CV.html">Curriculum Vitae</a></li>
+            <li class="shape-circle circle-three"><a href="progress.html">Progress</a></li>
+            <li class="shape-circle circle-four"><a href="schedule.html">Schedule</a>
+            <li class="shape-circle circle-five"><a href="index.html">Home</a>
+            </li>
+        </ul>
+    </nav>
+      
+      
+    <div class="title-page">
+            <div class="main-pic">
+              <div id="over-title-header" class="title-header">
+                <h1>Portfolio</h1>
+                <h3>Arriving at one goal is the starting point to another...</h3>
+                
+              </div>
+            </div>
+           
+
+            <hr>
+            <div>
+               <a class="nm-hover-1" href="index.html" target="_blank" ds-title="First project" ds-desc="This is my first website what i have made while learning for becoming a web developer."><img src="https://images.unsplash.com/photo-1479381122485-fbbcf6521885?dpr=0.800000011920929&auto=format&fit=crop&w=1500&h=1004&q=80&cs=tinysrgb&crop=" alt="Alt text Here"></a>
+               <a class="nm-hover-2" href="portfolio.html" target="_blank" ds-title="COMING SOON" ds-desc="Second project in the making."><img src="https://images.unsplash.com/photo-1479381122485-fbbcf6521885?dpr=0.800000011920929&auto=format&fit=crop&w=1500&h=1004&q=80&cs=tinysrgb&crop=" alt="Alt text Here"></a>
+               <a class="nm-hover-3" href="portfolio.html" target="_blank" ds-title="COMING SOON" ds-desc="More projects are coming!"><img src="https://images.unsplash.com/photo-1479381122485-fbbcf6521885?dpr=0.800000011920929&auto=format&fit=crop&w=1500&h=1004&q=80&cs=tinysrgb&crop=" alt="Alt text Here"></a>
+            </div>
+
+
+
+        <!-- FONT AWESOME -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css">
+<!-- *** ============================================*** -->
+<div class="container">
+<div class="social-media">
+<div class="media-icon"><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></div>
+<div class="media-icon"><a href="https://nl.linkedin.com"><i class="fab fa-linkedin-in"></i></a></div>
+<div class="media-icon"><a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></div>
+<div class="media-icon"><a href="https://www.google.com"><i class="fab fa-google"></i></a></div>
+<div class="media-icon"><a href="https://discordapp.com"><i class="fab fa-discord"></i></a></div>
+<div class="media-icon"><a href="https://www.reddit.com"><i class="fab fa-reddit-alien"></i></a></div>
+<div class="media-icon"><a href="https://www.twitch.tv"><i class="fab fa-twitch"></i></a></div>
+<div class="media-icon"><a href="https://www.playstation.com/nl-nl/"><i class="fab fa-playstation"></i></a></div>
+</div></div>
+     
+
+</body>
+</html>
+
+
+
+
+
+<script>
+    var bars = document.getElementById("nav-action");
+    var nav = document.getElementById("nav");
+
+
+    //setting up the listener
+    bars.addEventListener("click", barClicked, false);
+
+
+    //setting up the clicked Effect
+    function barClicked() {
+        bars.classList.toggle('active');
+        nav.classList.toggle('visible');
+    }
+
+
+
+		
+
+
+
+</script>

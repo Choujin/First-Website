@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    line-height:1.6;
+}
+
+#showcase{
+    background-image:url('../img/genius.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: top-center;
+    align-items: center;
+    padding: 0 20px;
+    height: 100vh;
+}
+header h1{
+    color: #9E0D1D;
+    font-size: 80px;
+    font-family: Jazz LET, fantasy;
+    
+}
+
+header p{
+    color: #8C4441;
+    font-family: cursive;
+}
+
+.sidenav {
+    width: 170px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: transparent;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    font-family: Trattatello, fantasy;
+}
+
+.sidenav a:hover {
+    color: #000000;
+}
+
+.main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.navbar-inner {
+    background:transparent;
+}

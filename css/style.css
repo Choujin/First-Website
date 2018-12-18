@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    line-height:1.6;
+}
+
+#showcase{
+    background-image:url('../img/showcase.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: top-center;
+    align-items: center;
+    padding: 0 20px;
+    height: 100vh;
+}
+header h1{
+    font-family: Chalkduster, fantasy;
+    color: #9E0D1D;
+    font-size: 80px;
+}
+
+header h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #2c2c27;
+    font-size: 30px;
+    text-shadow: 0 10px 20px rgba(229, 233, 224, 0.74), 0 6px 6px rgba(223, 231, 221, 0.788);
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing:5px;
+    padding-top:40px;
+  }
+
+header p{
+    color: #ffffff;
+    font-family: cursive;
+}
+
+.sidenav {
+    width: 170px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: transparent;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #c0db48;
+    display: block;
+    font-family: Trattatello, fantasy;
+}
+
+.sidenav a:hover {
+    color: #34c034;
+}
+
+.main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.navbar-inner {
+    background:transparent;
+}
+
+
+
+
+
+.Rvideo-box 
+	{
+	background-color: transparent;
+	text-align: center;
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	width: 100%;
+	max-width: 520px;
+	height: auto;
+	
+	}
+
+.Rvideo-box video 
+	{
+	width: 100%;
+	height: auto;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	}
+
+.Rvideo-caption 
+	{
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	}
+
+.Rvideo-nosupport
+	{
+	color: #FFFFFF;
+	padding-top: 110px;
+	padding-bottom: 110px;
+	}
